@@ -64,7 +64,7 @@ flo_cltv/
 
 ```bash
 # 1. Repoyu klonla
-git clone https://github.com/kullaniciadi/flo-cltv.git
+git clone https://github.com/buraksal52/cltv_prediction
 cd flo-cltv
 
 # 2. Sanal ortam oluştur
