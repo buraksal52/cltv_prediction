@@ -1,0 +1,4 @@
+pandas>=1.5.0
+lifetimes>=0.11.3
+scikit-learn>=1.1.0
+pyyaml>=6.0

@@ -1,0 +1,17 @@
+data:
+  raw_path: "data/raw/flo_data_20K.csv"
+  processed_path: "outputs/exports/cltv_output.csv"
+
+analysis:
+  analysis_date: "2021-06-01"
+  penalizer_bgf: 0.001
+  penalizer_ggf: 0.01
+  discount_rate: 0.01
+  prediction_months: [3, 6]
+  n_segments: 4
+
+outlier_cols:
+  - order_num_total_ever_online
+  - order_num_total_ever_offline
+  - customer_value_total_ever_offline
+  - customer_value_total_ever_online
